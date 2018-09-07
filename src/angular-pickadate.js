@@ -50,7 +50,7 @@ angular.module('schemaForm').directive('pickADate', function() {
       var defaultFormat = 'yyyy-mm-dd';
 
       //View format on the other hand we get from the pickadate translation file
-      var viewFormat    = $.fn.pickadate.defaults.format;
+      var viewFormat    = element.pickadate.defaults.format;
 
       var picker = element.pickadate('picker');
 
